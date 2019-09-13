@@ -1,0 +1,12 @@
+{
+	"version": 2,
+	"name": "hello-now-rust-example",
+	"routes": [{
+		"src": "/",
+		"dest": "/src"
+	}],
+	"builds": [{
+		"src": "src/index.rs",
+		"use": "now-rust"
+	}]
+}
